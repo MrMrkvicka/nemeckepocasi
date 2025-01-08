@@ -1,12 +1,12 @@
 <?php
-
+                                                                // php spark make:model station
 namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Mista extends Model
+class Station extends Model
 {
-    protected $table            = 'mista';
+    protected $table            = 'station';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';

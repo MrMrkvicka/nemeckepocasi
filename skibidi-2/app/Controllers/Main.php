@@ -5,18 +5,24 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
-use App\Models\Mista;
+use App\Models\Bundesland;
+use App\Models\station;
+use App\Models\data;
 
 class Main extends BaseController
 {
 
-    // var $mista;
+ 
+    var $mista;
+    var $data;
+    var $station;
+    public function __construct()
+    {
+        $this->mista = new Bundesland();
+        $this->data = new Data();
+        $this->station = new Station();
+    }
 
-    // public function __construct()
-    // {
-    //     $this->mista = new Mista();
-
-    // }
 
     public function index1()
     {
@@ -28,24 +34,26 @@ class Main extends BaseController
         echo view('index');
     }
 
-    // public function index1()
-    // {
-    //     $index1 = $this->mista->where("country", "pl")->orderBy("vyska","desc")->findAll();
-    //     $data["mista"] = $index1;
-    //     echo view("index", $data);
+    public function tabulka()
+    {
+        $tabulka = $this->mista->findAll();
+        $data["mista"] = $tabulka;
+        echo view("tabulka", $data);
+    }
+    public function zeme($idzeme): string
+    {
+        $data['station'] = $this->station->where('bundesland', $idzeme)->findAll();
+        $data['bundesland'] = $this->mista->find($idzeme);
+        return view('zem', $data);
+    }
+
+
+
+
+
 
 
     
-    // }
-
-    // public function index2(){
-    //     $index2 = $this->mista->where("country", "pl")->orderBy("vyska","desc")->findAll();
-    //     $data["mista"] = $index2;
-    //     echo view("index2", $data);
-
- 
-    
-    // }
 
 
 }

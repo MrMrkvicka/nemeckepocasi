@@ -7,3 +7,6 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Main::index');
 $routes->get("index1", "Main::index1");
+$routes->get("tabulka", "Main::tabulka");
+$routes->get('zeme/(:num)', 'Main::zeme/$1');
+$routes->get('stanice/(:num)', 'Main::stanice/$1');
