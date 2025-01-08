@@ -2,5 +2,5 @@
 
 
 
-<a href="<?php base_url("/index1")?>">sdfsdf</a>
+<a href="<?php base_url("index1")?>">sdfsdf</a>
 
