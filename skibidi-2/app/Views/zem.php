@@ -1,4 +1,4 @@
-<?= $this->extend("layout/shablona"); ?>
+<?= $this->extend("layout/template"); ?>
 <?= $this->section("title"); ?><title>Stanice zemi</title><?= $this->endSection(); ?>
 <?= $this->section("obsah"); ?>
 <style>
@@ -22,7 +22,8 @@
         <div class="col-xl-4 col-md-6 col-sm-12 p-2">
             <div class="card">
                 <div class="card-header text-center">
-                    <p><?= anchor("stanice/" . $row->S_ID, $row->place)  ?></p>
+                    <p><?= anchor("stanice/".$row->S_ID, $row->place)?></p>
+                    
                 </div>
                 <div class="card-body mx-auto">
                     <ul>

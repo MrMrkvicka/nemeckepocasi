@@ -47,11 +47,17 @@ class Main extends BaseController
         return view('zem', $data);
     }
 
+
+    
     public function stanice($idstanice): string
     {
-        $data['data'] = $this->data->where('station',$idstanice)->findall();
+        $data['data'] = $this->data->where('station',$idstanice)->orderBy('date')->findall();
         $data['data'] = $this->mista->find($idstanice);
         return view('station',$data);
+
+        // $zeme = $this->mista->find($idstanice);
+        // $stanice = $this->station->where('bundesland', $idstanice)->findall();
+
 
     }
 

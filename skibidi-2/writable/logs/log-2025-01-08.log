@@ -394,3 +394,128 @@ in APPPATH\Views\zem.php on line 25.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 13:46:40 --> ErrorException: Undefined variable $table
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zem.php on line 26.
+ 1 APPPATH\Views\zem.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 13:47:27 --> ErrorException: Attempt to read property "S_ID" on array
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zem.php on line 25.
+ 1 APPPATH\Views\zem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "S_ID" on array', 'C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 13:47:42 --> ErrorException: Attempt to read property "S_ID" on array
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zem.php on line 25.
+ 1 APPPATH\Views\zem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "S_ID" on array', 'C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 13:49:35 --> ErrorException: Attempt to read property "S_ID" on array
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zem.php on line 25.
+ 1 APPPATH\Views\zem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "S_ID" on array', 'C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 13:50:45 --> ErrorException: Attempt to read property "S_ID" on array
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zem.php on line 25.
+ 1 APPPATH\Views\zem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "S_ID" on array', 'C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 13:51:30 --> ErrorException: Attempt to read property "S_ID" on array
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zem.php on line 25.
+ 1 APPPATH\Views\zem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "S_ID" on array', 'C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 13:51:53 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zem.php on line 25.
+ 1 APPPATH\Views\zem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 13:59:29 --> ErrorException: Attempt to read property "S_ID" on array
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zem.php on line 25.
+ 1 APPPATH\Views\zem.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "S_ID" on array', 'C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\smid\\nemeckepocasi\\skibidi-2\\app\\Views\\zem.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 5 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-08 14:00:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/shablona.php"
+[Method: GET, Route: zeme/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/shablona.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/shablona', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zem', [], true)
+ 4 APPPATH\Controllers\Main.php(47): view('zem', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
